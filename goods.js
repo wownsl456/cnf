@@ -1,4 +1,4 @@
-$(document).ready(function () {
+
     $('.prev').click(function () {
         $('.banner_list li').last().prependTo('.banner_list');
         $('.banner_list').css({
@@ -26,4 +26,3 @@ $(document).ready(function () {
     });
 
 
-});
